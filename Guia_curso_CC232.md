@@ -30,6 +30,11 @@ cmake --version
 
 Deberías ver `UCRT64` y rutas bajo `/ucrt64/bin`. Eso confirma que la shell está usando la toolchain esperada. ([MSYS2][2])
 
+> Si vas a compilar proyectos de Windows con CMake dentro de MSYS2, la documentación oficial recomienda usar la variante **MinGW** de CMake y también tener **Ninja** como generador por defecto recomendado. En UCRT64, normalmente instalarías también:
+
+```bash
+pacman -S mingw-w64-ucrt-x86_64-ninja
+```
 
 #### 2. Agregar MSYS2 UCRT64 como terminal en VS Code
 
