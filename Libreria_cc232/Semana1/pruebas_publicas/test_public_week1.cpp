@@ -3,7 +3,6 @@
 #include "power.h"
 #include "Fib.h"
 
-
 int main() {
     int vacio[] = {0};
     assert(sumI(vacio, 0) == 0);
