@@ -1,6 +1,7 @@
 #include <iostream>
 #include "sum.h"
 
+// Ejemplo simple
 int main() {
     int a[] = {1, 2, 3, 4, 5};
     const int n = static_cast<int>(sizeof(a) / sizeof(a[0]));
