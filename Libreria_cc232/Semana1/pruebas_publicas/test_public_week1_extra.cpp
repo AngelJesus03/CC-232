@@ -8,6 +8,7 @@
 #include "max_algorithms.h"
 #include "reverse_utils.h"
 
+//Pruebas adicionales
 int main() {
     int a[] = {5, 1, 4, 2, 8};
     const BubbleStats stats = bubbleSortOptimized(a, 5);
