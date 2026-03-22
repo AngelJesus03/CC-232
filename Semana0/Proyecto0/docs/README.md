@@ -42,7 +42,6 @@ Desde build por ejemplo
 ./Debug/bench_vector_growth.exe
 ./Debug/bench_vector_ops.exe
 ./Debug/bench_cache_effects.exe
-./Debug/sanitizer_demo.exe
 ```
 
 #### Qué mirar para la clase
